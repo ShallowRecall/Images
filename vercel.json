@@ -1,0 +1,11 @@
+{
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "api/upimg.php", "use": "@vercel/php" }
+  ],
+
+  "routes": [
+    { "src": "/", "dest": "index.html" },
+    { "src": "/api/upload", "dest": "api/upimg.php" } 
+  ]
+}
