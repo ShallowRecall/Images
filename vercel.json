@@ -1,11 +1,17 @@
 {
   "builds": [
     { "src": "index.html", "use": "@vercel/static" },
-    { "src": "api/upimg.php", "use": "@vercel/php" }
+    { "src": "upimg.php", "use": "@vercel/php" }
   ],
 
   "routes": [
     { "src": "/", "dest": "index.html" },
-    { "src": "/api/upload", "dest": "api/upimg.php" } 
-  ]
+    { "src": "/api/upload", "dest": "upimg.php" }
+  ],
+
+  "env": {
+    "PHP_EXTENSIONS": "gd" 
+  },
+
+  "ignores": ["images"]
 }
