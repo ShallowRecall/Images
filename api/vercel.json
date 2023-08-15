@@ -1,0 +1,7 @@
+{
+  "version": 2,
+  "builds": [{ "src": "upimg.php", "use": "@vercel/php" }],
+  "routes": [
+    { "src": "/api/upimg", "dest": "upimg.php" }
+  ]
+}
