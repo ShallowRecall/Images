@@ -6,7 +6,7 @@
 
   "routes": [
     { "src": "/", "dest": "index.html" },
-    { "src": "/api/upload", "dest": "upimg.php" }
+    { "src": "/api/upimg.php", "dest": "upimg.php" }
   ],
 
   "env": {
