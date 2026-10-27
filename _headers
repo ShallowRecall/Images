@@ -1,2 +1,10 @@
 /posts/*
   Cache-Control: public, max-age=31536000, immutable
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+/2023/*
+  Cache-Control: public, max-age=31536000, immutable
+/BgcIMG/*
+  Cache-Control: public, max-age=31536000, immutable
+/img/*
+  Cache-Control: public, max-age=31536000, immutable
