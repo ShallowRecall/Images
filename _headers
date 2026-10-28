@@ -1,10 +1,10 @@
 /posts/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 /images/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 /2023/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 /BgcIMG/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
 /img/*
-  Cache-Control: public, max-age=31536000, immutable
+  Cache-Control: public, max-age=604800, stale-while-revalidate=86400
