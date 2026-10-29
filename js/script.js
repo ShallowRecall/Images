@@ -138,6 +138,8 @@ const runUpload = async ({ file, item, controller }) => {
       method: 'POST',
       body: formData,
       headers: { Accept: 'application/json' },
+      credentials: 'omit',
+      referrerPolicy: 'no-referrer',
       signal: controller.signal,
     });
     const payload = await response.json().catch(() => null);
