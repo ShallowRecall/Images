@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-29T16:59:30.201129+00:00",
-  "count": 2,
-  "total_bytes": 116478,
+  "generated_at": "2026-10-29T17:06:48.016955+00:00",
+  "count": 3,
+  "total_bytes": 116495,
   "files": [
     {
       "path": "2026/10/29/6ae36a658de75.jpg",
@@ -16,6 +16,13 @@
       "size": 58256,
       "sha256": "66cd9887032e003906ef2a72ddc2bfed48df1b83203ca0732984b65e143950a8",
       "modified_at": "2026-10-29T15:56:53.382952+00:00"
+    },
+    {
+      "path": "healthcheck.txt",
+      "url": "/i/healthcheck.txt",
+      "size": 17,
+      "sha256": "07a3b29a0f138c1ff7b4d095d17fee16376338855bd93c923724331841c580d9",
+      "modified_at": "2026-10-29T17:05:25.734312+00:00"
     }
   ]
 }
