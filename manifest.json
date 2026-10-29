@@ -1,15 +1,8 @@
 {
-  "generated_at": "2026-10-29T15:47:33.875775+00:00",
-  "count": 2,
-  "total_bytes": 58236,
+  "generated_at": "2026-10-29T15:48:06.676829+00:00",
+  "count": 1,
+  "total_bytes": 58222,
   "files": [
-    {
-      "path": ".gitignore",
-      "url": "/i/.gitignore",
-      "size": 14,
-      "sha256": "240a3e0d37d2e86b614063f5347eb02d4f99ca6c254de6b82871ff8d95532a7d",
-      "modified_at": "2025-11-24T00:47:33+00:00"
-    },
     {
       "path": "2026/10/29/6ae36a658de75.jpg",
       "url": "/i/2026/10/29/6ae36a658de75.jpg",
