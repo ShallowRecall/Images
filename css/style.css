@@ -4,3 +4,5 @@
 .toast { position: fixed; left: 50%; bottom: 28px; z-index: 10; max-width: min(88vw, 520px); padding: 12px 18px; border-radius: 999px; background: rgba(30, 24, 37, .92); color: #fff; font-size: 14px; line-height: 1.35; text-align: center; box-shadow: 0 10px 28px rgba(30, 24, 37, .22); opacity: 0; transform: translate(-50%, 12px); transition: opacity .2s ease, transform .2s ease; pointer-events: none; }
 .toast.is-visible { opacity: 1; transform: translate(-50%, 0); }
 .toast.is-error { background: rgba(190, 52, 52, .95); }
+.guest-nav { position: fixed; top: 24px; right: 24px; z-index: 20; display: inline-flex; align-items: center; height: 32px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(255,255,255,.09); background: rgba(31,41,55,.82); color: rgba(229,231,235,.88); font-size: 14px; font-weight: 600; text-decoration: none; box-shadow: 0 10px 25px rgba(0,0,0,.16); backdrop-filter: blur(12px); transition: background-color .2s ease, color .2s ease, border-color .2s ease; }
+.guest-nav:hover { background: rgba(55,65,81,.92); border-color: rgba(255,255,255,.14); color: #fff; }
