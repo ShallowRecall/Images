@@ -1,2 +1,10 @@
+# Keep image files in git. Ignore temporary and system files only.
 *
 !.gitignore
+!*/
+!*.jpg
+!*.jpeg
+!*.png
+!*.gif
+!*.webp
+.DS_Store
